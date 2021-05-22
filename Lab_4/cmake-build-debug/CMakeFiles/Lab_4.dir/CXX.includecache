@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/msi/Рабочий стол/Lab_4/dataStructures.cpp
+iostream
+-
+
+/home/msi/Рабочий стол/Lab_4/main.cpp
+dataStructures.cpp
+/home/msi/Рабочий стол/Lab_4/dataStructures.cpp
+tasks.cpp
+/home/msi/Рабочий стол/Lab_4/tasks.cpp
+
+/home/msi/Рабочий стол/Lab_4/tasks.cpp
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+
